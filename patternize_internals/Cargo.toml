@@ -17,7 +17,5 @@ proc-macro2.workspace = true
 quote.workspace = true
 syn.workspace = true
 
-# commenting out for first publish
-# some tests may fail by this
-# [dev-dependencies]
-# patternize = { version = "0", path = "../" }
+[dev-dependencies]
+patternize = { version = "0", path = "../" }
