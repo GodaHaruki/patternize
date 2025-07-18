@@ -1,0 +1,39 @@
+[package]
+name = "patternize"
+version.workspace = true
+edition.workspace = true
+categories.workspace = true
+description.workspace = true
+keywords.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+documentation.workspace = true
+homepage.workspace = true
+readme.workspace = true
+
+[workspace]
+members = ["patternize_internals", "patternize_macros"]
+resolver = "3"
+
+[workspace.package]
+version = "0.0.0"
+categories = ["development-tools", "data-structures"]
+description = "provide macros and traits to create design pattern"
+keywords = ["design-pattern", "design", "pattern", "macro", "proc-macro"]
+edition = "2024"
+authors = ["Goda Haruki"]
+repository = "https://github.com/GodaHaruki/patternize"
+license = "MIT OR Apache-2.0"
+documentation = "https://doc.rs/patternize"
+homepage = "https://github.com/GodaHaruki/patternize"
+readme = "README.md"
+
+[workspace.dependencies]
+proc-macro2 = { version = "1.0.74" }
+quote = { version = "1.0.40" }
+syn = { version = "2.0.104" }
+
+[dependencies]
+patternize_macros = { version = "0", path = "patternize_macros" }
+patternize_internals = { version = "0", path = "patternize_internals" }

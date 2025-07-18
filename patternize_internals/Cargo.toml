@@ -1,0 +1,23 @@
+[package]
+name = "patternize_internals"
+description = "Internals of patternize"
+version.workspace = true
+edition.workspace = true
+categories.workspace = true
+keywords.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+documentation.workspace = true
+homepage.workspace = true
+readme.workspace = true
+
+[dependencies]
+proc-macro2.workspace = true
+quote.workspace = true
+syn.workspace = true
+
+# commenting out for first publish
+# some tests may fail by this
+# [dev-dependencies]
+# patternize = { version = "0", path = "../" }
