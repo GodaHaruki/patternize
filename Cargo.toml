@@ -25,7 +25,7 @@ edition = "2024"
 authors = ["Goda Haruki"]
 repository = "https://github.com/GodaHaruki/patternize"
 license = "MIT OR Apache-2.0"
-documentation = "https://doc.rs/patternize"
+documentation = "https://docs.rs/patternize"
 homepage = "https://github.com/GodaHaruki/patternize"
 readme = "README.md"
 
